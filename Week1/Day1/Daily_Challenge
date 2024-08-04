@@ -1,0 +1,25 @@
+def get_ten_char_string():
+    while True: # We need the while loop to keet asking user untill he insers 10 characters
+        user_input = input("Please enter a string that is exactly 10 characters long: ")
+        if len(user_input) < 10:
+            print("String not long enough. Please try again.")
+        elif len(user_input) > 10:
+            print("String too long. Please try again.")
+        else:
+            print("Perfect string! You may continue.")
+            return user_input  # Exit the loop and return the valid string
+
+# new variable that will store the 10 char string we "forced" used to enter
+ten_char_string = get_ten_char_string()
+
+# Print the first and last characters of the valid string
+first_char = ten_char_string[0]
+last_char = ten_char_string[-1]
+print(f"The first character is: {first_char}")
+print(f"The last character is: {last_char}")
+
+#Using a for loop, construct the string character by character: Print the first character, then the second, then the third, until the full string is printed. 
+constructed_string = ""
+for char in ten_char_string:
+    constructed_string += char
+    print(char)
