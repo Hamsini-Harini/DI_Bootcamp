@@ -114,7 +114,7 @@ print(brand["major_color"]["US"])
 
 print(len(brand)) #but this will not give you sub-dictionaries
 
-# 11. Print the keys of the dictionary.
+# 11. Print the keys of the dictionary..
 print(brand.keys())
 
 
