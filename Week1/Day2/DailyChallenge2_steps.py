@@ -21,14 +21,3 @@
 #                   i += 1
 #              
 #               
-
-
-#class notes - solving challenge 1
-string = "dodo"
-
-#get the word (string)
-#look each letter of a string
-# create dictionary   
-# insert the letter as key of dictionary 
-# insert the letter index as value of dictionary
-# check if letter is in dictionary

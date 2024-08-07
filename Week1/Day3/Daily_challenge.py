@@ -32,6 +32,28 @@ print(result)
 
 
 
+
+#class notes - solving challenge 1
+string = "dodo"
+
+#get the word (string)
+#look each letter of a string
+# create dictionary   
+# insert the letter as key of dictionary 
+# insert the letter index as value of dictionary
+# check if letter is in dictionary
+
+
+
+
+
+
+
+
+
+
+
+
 # Challenge 2
 # Create a program that prints a list of the items you can afford in the store with the money you have in your wallet.
 # Sort the list in alphabetical order.
