@@ -66,10 +66,10 @@ def main():
     print_board(board)
     
     while True:
-        # Get player input
+        # Get player input and check validity
         row, col = player_input(current_player)
 
-        # Attempt to make the move
+        # Update the board with valid input, the name of function make_turn is misleading
         if make_turn(board, row, col, marks[current_player]):
             """#we use this dictionary to determine which mark to place on the board for the current player:
             marks[current_player]: This expression looks up the current player's mark in the dictionary. 
@@ -89,7 +89,7 @@ def main():
             print("The game is a tie!")
             break
 
-        # Switch players
+        # Switch players - time for other player to start the same cycle
         if current_player == player_1:
             current_player = player_2
         else:
