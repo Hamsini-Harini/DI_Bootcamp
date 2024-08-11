@@ -1,5 +1,4 @@
 def sort_words():
-    # Get user input
     input_words = input("Enter a comma-separated sequence of words: ")
 
     # Split the input string into a list of words
@@ -11,11 +10,9 @@ def sort_words():
     # Join the sorted words into a comma-separated string
     result = ','.join(sorted_words)
 
-    # Print the result
     print(result)
 
-# Uncomment to test the function
-# sort_words()
+sort_words()
 
 #Challenge 2
 
@@ -23,7 +20,6 @@ def longest_word(sentence):
     # Split the sentence into words
     words = sentence.split()
     
-    # Initialize the longest word variable
     longest = ""
 
     # Iterate through each word to find the longest one
