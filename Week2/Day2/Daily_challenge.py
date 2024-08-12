@@ -154,7 +154,7 @@ print(p.getVisibleItems())  # Outputs: ["a", "b", "c", "d"]
 
 # Test edge case: go to a page out of range
 p.goToPage(10)
-print(p.getVisibleItems())  # Outputs: ["y", "z"] (because there are only 7 pages)
+print(p.getVisibleItems())  # Outputs: ["y", "z"] (because there are only 7 pages and we limited the user so he can't go beyond the last page never)
 
 p.goToPage(-5)
 print(p.getVisibleItems())  # Outputs: ["a", "b", "c", "d"] (because the minimum page is 1)
