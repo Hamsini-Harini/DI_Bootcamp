@@ -67,5 +67,3 @@ my_file_text.most_common_word()
 my_file_text.unique_words()
 
 # note to checker, not sure where the error in second part is coming from
-
-
