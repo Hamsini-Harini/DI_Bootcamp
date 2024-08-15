@@ -1,6 +1,6 @@
 import random
 import os
-
+os.getcwd()
 def get_words_from_file():
     with open ("Week2/Day4/Words_Ex.txt", "r") as file:
         words = file.read().splitlines()  
